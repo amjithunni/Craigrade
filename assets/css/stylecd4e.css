@@ -2931,6 +2931,28 @@ div.cs-skin-elastic {
   --text-cv: #ef5350;
 }
 
+
+.craigrade-employer{
+  border-radius: 50%;
+  width: 180px;
+}
+.dropdown-list-image {
+  position: relative;
+  height: 2.5rem;
+  width: 2.5rem;
+  
+  margin-right: 30px;
+}
+.dropdown-list-image img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.btn-light {
+  color: #2cdd9b;
+  background-color: #e5f7f0;
+  border-color: #d8f7eb;
+}
+
 .container99 {
   position: relative;
   border-radius: 20px;
