@@ -1,5 +1,5 @@
 
-;
+
 //mainform end
 
 $(document).ready(function () {
