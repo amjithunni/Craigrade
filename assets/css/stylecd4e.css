@@ -3032,9 +3032,10 @@ div.cs-skin-elastic {
   padding: 20px;
 }
 .container88 .left-section .profile-pic {
-  width: 140px;
-  flex-basis: 140px;
+  width: 100px;
+  flex-basis: 100px;
   flex-shrink: 0;
+  height: 100px;
   
   margin-left: 20px;
 }
@@ -3043,7 +3044,7 @@ div.cs-skin-elastic {
 }
 .container88 .left-section .profile-detail .profile-name {
   color: var(--text-primary);
-  font-size: 1.45rem;
+  font-size: 1.25rem;
   padding-bottom: 10px;
   margin-top: 10px;
 }
@@ -3059,13 +3060,14 @@ div.cs-skin-elastic {
 }
 .container88 .left-section .profile-detail .profile-summary {
   color: #d1d1d1!important;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .container88 .left-section .profile-detail .profile-cv {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #abfbe7!important;
   font-weight: 700;
+  font-size: 12px;
 }
 
 .fa-map-marker {
@@ -3124,8 +3126,8 @@ div.cs-skin-elastic {
 
 @media screen and (min-width: 768px) {
   .container88 {
-    width: 540px;
-    height: 300px;
+    width: 350px;
+    height: 230px;
   }
   .container88 .left-section {
     width: 100%;
@@ -9144,6 +9146,59 @@ input[type=file]::file-selector-button:hover {
   color: black;
 }
 
+
+
+
+
+.text-imp{
+  text-align: left!important;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sidebar-list-job88 ul li{
+    margin-left: 120px;
+  }
+}
+
+
+.sidebar-list-job88 {
+  border-top: 1px solid rgba(6, 18, 36, 0.1);
+  display: inline-block;
+  width: 100%;
+  padding: 25px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+}
+.sidebar-list-job88 ul {
+  padding: 0px;
+}
+.sidebar-list-job88 ul li {
+  display:inline-block;
+  
+  width: 60%;
+  padding-bottom: 20px;
+}
+.sidebar-list-job88 ul li .sidebar-icon-item {
+  float: left;
+  width: 22px;
+  padding-top: 4px;
+}
+.sidebar-list-job88 ul li .sidebar-icon-item i {
+  font-size: 18px;
+  color: #4F5E64;
+}
+.sidebar-list-job88 ul li .sidebar-text-info {
+  display: block;
+  
+}
+.sidebar-list-job88 ul li .sidebar-text-info span {
+  color: #66789C;
+}
+.sidebar-list-job88 ul li .sidebar-text-info strong {
+  display: block;
+  padding-top: 0px;
+  color: black;
+}
+
 .box-map {
   display: inline-block;
   width: 100%;
@@ -11531,9 +11586,7 @@ margin-left: 300px!important;
 .mb-4, .my-4 {
   margin-bottom: 2.25rem!important;
 }
-.tab-content {
-  padding: 20px 0 0 0;
-}
+
 .progress-sm {
   height: 5px;
 }
