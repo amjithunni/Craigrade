@@ -12140,6 +12140,11 @@ margin-left: 300px!important;
 }
 
 
+.verification-cover {
+    border-bottom: 1px solid #E0E6F6;
+    
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
