@@ -12116,6 +12116,28 @@ margin-left: 300px!important;
 .t-head-verify{
   background-color:#F1F5F7;
 }
+.heading-line {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.heading-line:after {
+  content: "";
+  height: 4px;
+  width: 75px;
+  background-color: #1FAB89;
+  position: absolute;
+  bottom: 0;
+  
+  left: 0;
+}
+.notification-content{
+  margin: auto;
+}
+.notification-container{
+
+  background-color: #f7f7f7;
+}
 
 
 /* ===== Scrollbar CSS ===== */
