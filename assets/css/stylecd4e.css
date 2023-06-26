@@ -12345,7 +12345,7 @@ margin-left: 300px!important;
   }
   
   &:active {
-    background-color: darken($color--primary, 10%);
+    
     background-size: 100%;
     
   }
