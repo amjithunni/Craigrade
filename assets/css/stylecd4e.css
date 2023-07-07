@@ -5173,7 +5173,7 @@ ul li:last-child .card-list-4 {
 }
 
 .content-job-inner {
-  padding: 40px;
+  padding: 30px;
 }
 
 .box-image-job {
@@ -10834,9 +10834,7 @@ input[type=file]::file-selector-button:hover {
   .img-job-2 {
     display: none;
   }
-  .content-job-inner {
-    padding-top: 40px;
-  }
+ 
   .box-we-hiring {
     padding: 20px 25px;
     width: auto;
@@ -12538,3 +12536,18 @@ margin-left: 300px!important;
     border-radius: 2px;
     border: 3px none #ffffff;
   }
+
+  @media only screen and (max-width: 600px) {
+    .parent00 {
+   
+      flex-direction: column-reverse;
+    }
+  }
+
+
+
+
+
+
+
+  
