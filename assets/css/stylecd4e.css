@@ -12559,19 +12559,20 @@ margin-left: 300px!important;
   @media only screen and (max-width: 500px) {
     .tilt {
       width: 350px !important;
-      height: 200px !important;
+      height: 240px !important;
       margin-bottom: 40px !important;
       
     }
     .credit-card{
       width: 350px !important;
+      height: 240px !important;
       
     }
     .credit-card__front h5{
-      font-size: 1.15rem !important;
+      font-size: 1.05rem !important;
     }
     .credit-card__front h5{
-      font-size: 1.05rem !important;
+      font-size: 0.95rem !important;
     }
     .credit-card__front .logo{
       width: 100px !important;
