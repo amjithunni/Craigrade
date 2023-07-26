@@ -1984,7 +1984,7 @@ font-weight: 30px;
 .left-section{
   grid-column: span 2;
   height: 100%;
-  background-color: #00324A;
+ 
 }
 .right-section{
   grid-column: span 5;
@@ -12558,14 +12558,14 @@ margin-left: 300px!important;
 
   @media only screen and (max-width: 500px) {
     .tilt {
-      width: 350px !important;
-      height: 240px !important;
+      width: 300px !important;
+      height: 230px !important;
       margin-bottom: 40px !important;
       
     }
     .credit-card{
-      width: 350px !important;
-      height: 240px !important;
+      width: 300px !important;
+      height: 230px !important;
       
     }
     .credit-card__front h5{
@@ -12579,6 +12579,15 @@ margin-left: 300px!important;
     }
     .credit-card__front .logo img{
       width: 100px !important;
+      
+    }
+    .credit-card__front .VISA{
+      width: 80px !important;
+      right: 30px !important;
+    }
+    .credit-card__front .VISA img{
+      width: 80px !important;
+      height: 80px !important;
       
     }
   }
